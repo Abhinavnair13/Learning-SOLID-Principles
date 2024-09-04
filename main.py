@@ -12,6 +12,7 @@ class Order:
     sum = 0
     for price in self.prices:
       sum +=price
+      
     return sum
 class Payment:
   def pay(self, order:Order, paymentType : str, code):
